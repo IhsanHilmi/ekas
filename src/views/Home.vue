@@ -1,6 +1,11 @@
 
 <template>
   <div class="home">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/register">Register</router-link> |
+      <router-link to="/login">Edit</router-link>
+    </div>
     <div class="navbarr"> <img alt="EKASBON" id="navbar-image" src="../assets/logo.png"></div> 
     
     <button @click="getObject()">GET Object</button>

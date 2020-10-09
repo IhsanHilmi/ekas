@@ -1,5 +1,10 @@
 <template>
   <div class="register">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/register">Register</router-link> |
+      <router-link to="/login">Edit</router-link>
+    </div>
     <h1>Registrasi E-Kasbon</h1>
     <form action="#">
       <label for="In_Nama_Lengkap">Nama Lengkap</label><br>
